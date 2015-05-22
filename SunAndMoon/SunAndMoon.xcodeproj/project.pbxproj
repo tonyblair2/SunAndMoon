@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F670BF061B0FA57F00A71743 /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F670BF041B0FA57F00A71743 /* Main-iPad.storyboard */; };
+		F670BF0D1B0FA5F100A71743 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = F670BF0A1B0FA5F100A71743 /* Model */; };
+		F670BF0E1B0FA5F100A71743 /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = F670BF0B1B0FA5F100A71743 /* Resource */; };
+		F670BF0F1B0FA5F100A71743 /* ViewController in Resources */ = {isa = PBXBuildFile; fileRef = F670BF0C1B0FA5F100A71743 /* ViewController */; };
 		F6AAED531B0BAC9900D2E31E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AAED521B0BAC9900D2E31E /* main.m */; };
 		F6AAED561B0BAC9900D2E31E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AAED551B0BAC9900D2E31E /* AppDelegate.m */; };
-		F6AAED591B0BAC9900D2E31E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AAED581B0BAC9900D2E31E /* ViewController.m */; };
 		F6AAED5C1B0BAC9900D2E31E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AAED5A1B0BAC9900D2E31E /* Main.storyboard */; };
 		F6AAED5E1B0BAC9900D2E31E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AAED5D1B0BAC9900D2E31E /* Images.xcassets */; };
 		F6AAED611B0BAC9900D2E31E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6AAED5F1B0BAC9900D2E31E /* LaunchScreen.xib */; };
@@ -27,13 +30,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F670BF051B0FA57F00A71743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-iPad.storyboard"; sourceTree = "<group>"; };
+		F670BF0A1B0FA5F100A71743 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		F670BF0B1B0FA5F100A71743 /* Resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resource; sourceTree = "<group>"; };
+		F670BF0C1B0FA5F100A71743 /* ViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewController; sourceTree = "<group>"; };
 		F6AAED4D1B0BAC9900D2E31E /* SunAndMoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunAndMoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AAED511B0BAC9900D2E31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6AAED521B0BAC9900D2E31E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F6AAED541B0BAC9900D2E31E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6AAED551B0BAC9900D2E31E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F6AAED571B0BAC9900D2E31E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F6AAED581B0BAC9900D2E31E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F6AAED5B1B0BAC9900D2E31E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6AAED5D1B0BAC9900D2E31E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F6AAED601B0BAC9900D2E31E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -81,10 +86,12 @@
 		F6AAED4F1B0BAC9900D2E31E /* SunAndMoon */ = {
 			isa = PBXGroup;
 			children = (
+				F670BF0A1B0FA5F100A71743 /* Model */,
+				F670BF0B1B0FA5F100A71743 /* Resource */,
+				F670BF0C1B0FA5F100A71743 /* ViewController */,
+				F670BF041B0FA57F00A71743 /* Main-iPad.storyboard */,
 				F6AAED541B0BAC9900D2E31E /* AppDelegate.h */,
 				F6AAED551B0BAC9900D2E31E /* AppDelegate.m */,
-				F6AAED571B0BAC9900D2E31E /* ViewController.h */,
-				F6AAED581B0BAC9900D2E31E /* ViewController.m */,
 				F6AAED5A1B0BAC9900D2E31E /* Main.storyboard */,
 				F6AAED5D1B0BAC9900D2E31E /* Images.xcassets */,
 				F6AAED5F1B0BAC9900D2E31E /* LaunchScreen.xib */,
@@ -199,9 +206,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F670BF0E1B0FA5F100A71743 /* Resource in Resources */,
+				F670BF0D1B0FA5F100A71743 /* Model in Resources */,
 				F6AAED5C1B0BAC9900D2E31E /* Main.storyboard in Resources */,
 				F6AAED611B0BAC9900D2E31E /* LaunchScreen.xib in Resources */,
+				F670BF0F1B0FA5F100A71743 /* ViewController in Resources */,
 				F6AAED5E1B0BAC9900D2E31E /* Images.xcassets in Resources */,
+				F670BF061B0FA57F00A71743 /* Main-iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6AAED591B0BAC9900D2E31E /* ViewController.m in Sources */,
 				F6AAED561B0BAC9900D2E31E /* AppDelegate.m in Sources */,
 				F6AAED531B0BAC9900D2E31E /* main.m in Sources */,
 			);
@@ -244,6 +254,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		F670BF041B0FA57F00A71743 /* Main-iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F670BF051B0FA57F00A71743 /* Base */,
+			);
+			name = "Main-iPad.storyboard";
+			sourceTree = "<group>";
+		};
 		F6AAED5A1B0BAC9900D2E31E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -418,6 +436,7 @@
 				F6AAED721B0BAC9900D2E31E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6AAED731B0BAC9900D2E31E /* Build configuration list for PBXNativeTarget "SunAndMoonTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +445,7 @@
 				F6AAED751B0BAC9900D2E31E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
